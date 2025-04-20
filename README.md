@@ -24,3 +24,16 @@ DeepLearningSystem_main/
 │
 └── eval.py  -> 테스트 파일
 ```
+### 사용방법
+> #### 환경설정
+> 기본 환경 cuda 11.8 / 리눅스 20.04 
+> 1. ```conda create -n myenv python=3.8 -y```
+> 2. ```conda activate myenv```
+> 3. ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118```
+> 4. ```pip install pandas opencv-python numpy tqdm matplotlib```
+> 5. ```pip install scikit-learn pillow scikit-image lpips pytorch-fid```
+
+> #### 코드 실행 
+> 1. ```python buildmaskerData.py``` 실행해서 데이터 파일 만들기.
+> 2. ```python train_cbam.py``` 훈련 시작
+> 3. ```python eval.py```  평가하기
