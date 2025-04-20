@@ -33,7 +33,8 @@ DeepLearningSystem_main/
 > 4. ```pip install pandas opencv-python numpy tqdm matplotlib```
 > 5. ```pip install scikit-learn pillow scikit-image lpips pytorch-fid```
 
-> #### 코드 실행 
+> #### 코드 실행
+> 0. 데이터는 다운 받고 위 파일 구조 처럼 만들어 놓기.
 > 1. ```python buildmaskerData.py``` 실행해서 데이터 파일 만들기.
 > 2. ```python train_cbam.py``` 훈련 시작
 > 3. ```python eval.py```  평가하기
